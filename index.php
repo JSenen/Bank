@@ -7,5 +7,8 @@
 
 ?>
 <p>Cliente <?php echo 'Nombre: '.$cliente->nombre; ?></p>
-</body>
-</html>
+
+
+<?php
+include "./includes/footer.php";
+?>

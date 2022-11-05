@@ -97,5 +97,16 @@ p {
     vertical-align: text-bottom; 
 }
 
+.footer--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/signature.png);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 
 
