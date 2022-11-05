@@ -29,6 +29,18 @@ a {
     font-size: 1.75rem;
 }
 
+.resultado_edad a {
+    text-decoration: none;
+    color:var(--rojo);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: var(--fuente);
+    font-size: 1.75rem;
+
+
+
+}
+
 h1 {
     font-size: 4rem;
     font-weight: 700;
@@ -80,33 +92,29 @@ p {
     color: var(--claro);
 }
 
-/*SECCION*/
-
-.seccion {
+.intro {
     display: flex;
-    flex-direction:column;
-    margin: 1rem 30rem;
-    
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+}
+.intro_container {
+    display:inline-block;
+    padding: 2rem;
+    align-content: center;
+    font-size: large;
 }
 
-.seccion--fecha {
-    color: var(--rojo);
-}
-
-.seccio--tema {
-    vertical-align: text-bottom; 
-}
 
 .footer--container {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(../img/signature.png);
-    background-size:cover;
-    background-attachment: fixed;
-    background-position: center;
+    background-color: #1f839c;
 }
+
+
 
 
 
