@@ -3,11 +3,9 @@
     include "./includes/header.php";
     include "./domain/Cliente.php";
 
-    $cliente = new Cliente();
-    $cliente->nombre = "Juan Senen";
-    $cliente->dni = "1234567A";
-    $cliente->numeroCuenta = "A123";
+    $cliente = new Cliente('Juan','25252525Q','AD345',2400);
+
 ?>
-<p>Cliente <?php var_dump($cliente); ?></p>
+<p>Cliente <?php echo 'Nombre: '.$cliente->nombre; ?></p>
 </body>
 </html>
