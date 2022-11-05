@@ -103,12 +103,15 @@ p {
     padding: 2rem;
     align-content: center;
     font-size: large;
+    margin-top: 10rem;
 }
 
 
 .footer--container {
     display: flex;
     justify-content: center;
+    margin-top: 40rem;
+
     align-items: center;
     text-align: center;
     background-color: #1f839c;
