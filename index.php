@@ -29,7 +29,7 @@
                   */
                 if ($edad > 18) {
                     echo '<div class="resultado_edad">
-                            <p> Pulsa el<a href="#">enlace</a> para continuar </p>
+                            <p> Pulsa el<a href="ifelse.php">enlace</a> para continuar </p>
                           </div>';
                 }
             }
