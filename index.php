@@ -2,38 +2,24 @@
 
     include "./includes/header.php";
     include "./domain/Cliente.php";
-
-    $cliente = new Cliente('Juan','25252525Q','AD345',2400);
-
+    include "./function/validar_edad.php";
 
 ?>
+<!-- CON LA FUNCION VALIDAR EDAD EJECUTAMOS IF -->
 
 <div class="intro">
     <div class="intro_container">
-    <p>Año de nacimiento:</p>
-        <form method="POST">
-            <input type="number" name="anno">
+    <h2>EDAD:</h2>
+        <form method="GET" >
+            <input type="text" name="age">
             <br>
             <input type="submit" name="submit" value="Enviar ">
         </form>
         <?php
-            //isset evita la variable nula
-            if(isset($_POST['anno'])){
-                $anno = $_POST['anno'];
-
-                $actual = date('Y');
-                $edad = $actual - $anno;
-                echo '<p>Tienes '.$edad.' años</p>';
-                 /** PRUEBA ESTRUCTURA DE CONTROL IF.
-                  *Solo nos muestra el enlace si la edad es mayor de 18
-                  */
-                if ($edad > 18) {
-                    echo '<div class="resultado_edad">
-                            <p> Pulsa el<a href="ifelse.php">enlace</a> para continuar </p>
-                          </div>';
-                }
-            }
-
+        if (isset($_GET['age'])) {
+            $age = $_GET['age'];
+            validar_edad($age);
+        }
         ?>
     </div>
 </div>
