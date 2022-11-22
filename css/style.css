@@ -8,6 +8,7 @@
     --negro:#000000;
     --rojo:#ee0d0d;
     --bluelight:#0deedf;
+    --fondo:#e8e5e5;
 
 
 }
@@ -23,23 +24,12 @@ html {
 
 a {
     text-decoration: none;
-    color:var(--blanco);
+    color:var(--rojo);
     margin-left: 3rem;
     font-family: var(--fuente); 
     font-size: 1.75rem;
 }
 
-.resultado_edad a {
-    text-decoration: none;
-    color:var(--rojo);
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-family: var(--fuente);
-    font-size: 1.75rem;
-
-
-
-}
 
 h1 {
     font-size: 4rem;
@@ -50,13 +40,17 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
-    color: var(--primario);
+    color: var(--rojo);
     font-weight: 700;
 }
 
 p {
     font-size: 2rem;
     font-weight: 400;
+}
+
+body {
+    background-color:var(--fondo);
 }
 
 /*HEADER*/
@@ -81,7 +75,7 @@ p {
 }
 
 
- .navegacion {
+.navegacion {
     background-color: var(--negro);
     padding: 2rem;
 }
@@ -102,8 +96,18 @@ p {
     display:inline-block;
     padding: 2rem;
     align-content: center;
+    justify-content: center;
     font-size: large;
     margin-top: 10rem;
+}
+
+input ,button, select {
+    font-family: var(--fuente);
+    font-size: 100%;
+    width : 150px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 

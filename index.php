@@ -1,8 +1,7 @@
 <?php
 
     include "./includes/header.php";
-    include "./domain/Cliente.php";
-    include "./function/validar_edad.php";
+    include "./function/validar.php";
 
 ?>
 <!-- CON LA FUNCION VALIDAR EDAD EJECUTAMOS IF -->

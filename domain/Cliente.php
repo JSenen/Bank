@@ -15,9 +15,11 @@ class Cliente {
         $this->dni = $dni;
         $this->numeroCuenta = $numeroCuenta;
         $this->saldo = $saldo;
+    }
 
-}
-
+    public function getDatos(){
+        return "Nombre: ".$this->nombre." DNI:".$this->dni." CCC".$this->numeroCuenta." Saldo:".$this->saldo;
+    }
     //Metodos
 
 
