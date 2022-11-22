@@ -104,9 +104,10 @@ body {
 input ,button, select {
     font-family: var(--fuente);
     font-size: 100%;
+    align-content: center;
     width : 150px;
-    padding: 0;
-    margin: 0;
+    padding: 0rem;
+    margin: 1rem;
     box-sizing: border-box;
 }
 

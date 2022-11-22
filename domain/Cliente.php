@@ -20,7 +20,7 @@ class Cliente {
     public function getDatos(){
         return "Se ha creado la cuenta con los siguientes datos: <br><b>Nombre:  </b>".$this->nombre.
             "<br><b>DNI:   </b>".$this->dni."<br><b>CCC   </b>".$this->numeroCuenta.
-            "<br><b>Saldo:   </b>".$this->saldo."<br>Pulse<a href='./Cliente.php'>aquí</a>";
+            "<br><b>Saldo:   </b>".$this->saldo."<br>Pulse<a href='./account.php'>aquí</a>";
     }
 
     //Metodos
