@@ -1,5 +1,13 @@
 # Actividad Aprendizahe Desarrollo de Interfaces
-## 1EVA - 2022/2023 - 2ªDAM
+## 1EVA - 2022/2023 - 2ªDAM 
+## Parte 1 de 2
+
+![PHP](https://img.shields.io/badge/PHP-purple?style=for-the-badge&logo=PHP&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-green?style=for-the-badge&logo=css&logoColor=white)
+![Github](https://img.shields.io/badge/github-black?style=for-the-badge&logo=github&logoColor=white)
+![PHPStorm](https://img.shields.io/badge/PHPStorm-black?style=for-the-badge&logo=PHPStrom&logoColor=white)
+![MAMP](https://img.shields.io/badge/MAMP-grey?style=for-the-badge&logo=MAMP&logoColor=white)
 
 Requisitos (1 pto cada uno, obligatorios en esta 1ª Parte)
 1. La aplicación deberá cumplir POO
