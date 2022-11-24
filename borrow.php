@@ -5,10 +5,6 @@ include "./function/control_con_while.php";
 
 ?>
 <!-- CON LA SELECCIÓN DE VARIO COMPONENTES EJECUTAMOS IF..ELSEIS -->
-<nav class="navegacion">
-    <a href="borrow.php" class="navegacion--activo">Calculo Prestamo</a>
-    <a href="pensions.php" >Calculo Plan Pensiones</a>
-</nav>
 <div class="intro">
     <div class="intro_container">
         <form action="borrow.php" method="GET">

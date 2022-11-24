@@ -2,10 +2,7 @@
 include './includes/header.php';
 include './function/control_con_do_while.php';
 ?>
-<nav class="navegacion">
-    <a href="borrow.php" >Calculo Prestamo</a>
-    <a href="pensions.php" class="navegacion--activo">Calculo Plan Pensiones</a>
-</nav>
+
 <div class="intro">
     <div class="intro_container">
         <form action="pensions.php" method="POST">
@@ -27,11 +24,12 @@ include './function/control_con_do_while.php';
         </form>
         <?php
         if (isset($_POST['edad'],$_POST['aportada'])){
-            $edad = 65 - $_POST['edad'];
+            $edad = $_POST['edad'];
             $aportada = $_POST['aportada'];
             $interes = 4.30;
+            $jubilacion = 65 - $edad;
             $total = $aportada;
-            echo "Le faltan $edad años para la jubilacion<br>";
+            echo "Le faltan $jubilacion años para la jubilacion<br>";
             echo "CUADRO DE APORTACIÓN";
             calcular_pension($edad,$aportada,$interes,$total);
         }

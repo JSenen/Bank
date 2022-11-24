@@ -17,6 +17,11 @@
         <p>Tu banco de confizanza</p>
         </div>
     </header>
+<nav class="navegacion">
+    <a href="borrow.php" >Calculo Prestamo</a>
+    <a href="pensions.php">Calculo Plan Pensiones</a>
+    <a href="calcchange.php" class="navegacion--activo">Calculadora Cambios</a>
+</nav>
 
 
 
