@@ -20,7 +20,7 @@
 <nav class="navegacion">
     <a href="borrow.php" >Calculo Prestamo</a>
     <a href="pensions.php">Calculo Plan Pensiones</a>
-    <a href="calcchange.php" class="navegacion--activo">Calculadora Cambios</a>
+    <a href="calcchange.php">Calculadora Cambios</a>
 </nav>
 
 

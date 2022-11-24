@@ -15,7 +15,7 @@ include "./function/control_con_if_else.php";
                     <option value="cuenta">Crear cuenta</option>
                     <option value="prestamo">Solicitar prestamo</option>
                 </select>
-                <input type="submit" value="Enviar" />
+                <input type="submit" value="Enviar" class="btn"/>
             </form>
 
         <?php

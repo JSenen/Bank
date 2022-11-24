@@ -1,7 +1,7 @@
 <?php
 
 require_once "./includes/header.php";
-    include "./function/control_con_if.php";
+include "./function/control_con_if.php";
 
 ?>
 <!-- CON LA FUNCION VALIDAR EDAD EJECUTAMOS IF -->
@@ -12,7 +12,7 @@ require_once "./includes/header.php";
         <form method="GET" >
             <input type="text" name="age">
             <br>
-            <input type="submit" name="submit" value="Enviar ">
+            <input type="submit" name="submit" value="Enviar" class="btn">
         </form>
         <?php
         if (isset($_GET['age'])) {
@@ -25,5 +25,5 @@ require_once "./includes/header.php";
 
 
 <?php
-include "./includes/footer.php";
+require_once "./includes/footer.php";
 ?>

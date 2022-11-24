@@ -2,7 +2,9 @@
 
 
 include "./includes/header.php";
+include "./function/randomstring.php";
 include "./domain/Cliente.php";
+include "./domain/AccountCliente.php";;
 
 ?>
 <div class="intro">
@@ -37,11 +39,14 @@ include "./domain/Cliente.php";
         if(isset($_GET["nombre"],$_GET["dni"],$_GET["tiposcuenta"],$_GET["saldo"])){
             $name = $_GET["nombre"];
             $dni = $_GET["dni"];
-            $account = $_GET["tiposcuenta"];
+            $tipoaccount = $_GET["tiposcuenta"];
             $amount = $_GET["saldo"];
-            $cliente = new Cliente($name,$dni,$account,$amount);
+            $cliente = new Cliente($name,$dni);
+            $ccc = generateRandomString();
+            $accountcliente = new AccountCliente($ccc, $amount, $tipoaccount);
 
             echo $cliente->getDatos();
+            echo $accountcliente->getAccount();
         }
         ?>
     </div>

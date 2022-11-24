@@ -73,14 +73,28 @@ body {
 .header span {
     color: var(--blanco);
 }
-
+.btn {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+.btn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+input ,button, select {
+    font-family: var(--fuente);
+    font-size: 100%;
+    align-content: center;
+    width : 150px;
+    padding: 0rem;
+    margin: 1rem;
+    box-sizing: border-box;
+}
 
 .navegacion {
     background-color: var(--negro);
     padding: 2rem;
-}
-.navegacion--activo {
-    color: var(--bluelight);
 }
 .navegacion a:hover {
     color: var(--claro);
@@ -100,17 +114,6 @@ body {
     font-size: large;
     margin-top: 10rem;
 }
-
-input ,button, select {
-    font-family: var(--fuente);
-    font-size: 100%;
-    align-content: center;
-    width : 150px;
-    padding: 0rem;
-    margin: 1rem;
-    box-sizing: border-box;
-}
-
 
 .footer--container {
     display: flex;
