@@ -2,7 +2,7 @@
 
 include "./includes/header.php";
 include "./domain/Cliente.php";
-include "./function/validar.php";
+include "./function/control_con_if_else.php";
 ?>
 
     <!-- CON LA FUNCION SI QUIERE CREAR CUENTA O SOLICITAR PRESTAMO VALIDAMOS IF..ELSE -->

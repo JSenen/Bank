@@ -1,14 +1,16 @@
 <?php
 
 include "./includes/header.php";
-include "./includes/nav.php";
 include "./domain/Cliente.php";
 
 ?>
+
 <div class="intro">
     <div class="intro_container">
-        <h3>CUENTA DEL CLIENTE</h3>
-
+        <div>
+            <h1>OPCIONES CUENTA</h1>
+            <h3>Pulse en los enlaces superiores según la opción que deseé</h3>
+        </div>
     </div>
 </div>
 
