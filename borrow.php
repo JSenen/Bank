@@ -34,7 +34,7 @@ include "./function/control_con_while.php";
             </select>
         </div>
         <div>
-            <input type="submit" name="submit" value="Enviar ">
+            <input class="btn" type="submit" name="submit" value="Enviar ">
         </div>
         </form>
         <?php
