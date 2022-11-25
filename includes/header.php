@@ -18,6 +18,7 @@
         </div>
     </header>
 <nav class="navegacion">
+    <a href="index.php" >Inicio</a>
     <a href="borrow.php" >Calculo Prestamo</a>
     <a href="pensions.php">Calculo Plan Pensiones</a>
     <a href="calcchange.php">Calculadora Cambios</a>

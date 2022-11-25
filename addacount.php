@@ -47,6 +47,7 @@ include "./domain/AccountCliente.php";;
 
             echo $cliente->getDatos();
             echo $accountcliente->getAccount();
+            echo "<p>Pulse <a href=\"account.php\">Aqui</a> para continuar</p>";
         }
         ?>
     </div>
