@@ -22,6 +22,7 @@
     <a href="pensions.php">Calculo Plan Pensiones</a>
     <a href="calcchange.php">Calculadora Cambios</a>
     <a href="bolsa.php">Acciones</a>
+    <a href="cripto.php">Criptomonedas</a>
 </nav>
 
 
